@@ -10,4 +10,18 @@ int x2 = Convert.ToInt32(Console.ReadLine());
 int y1 = Convert.ToInt32(Console.ReadLine());
 int y2 = Convert.ToInt32(Console.ReadLine());
 double Length = ((Math.Pow(x2, 2)) - (Math.Pow(x1, 2))) + ((Math.Pow(y2, 2)) - (Math.Pow(y1, 2)));
-Console.WriteLine(Math.Sqrt(Length));
+double sqr = Math.Sqrt(Length);
+Console.WriteLine(sqr);
+
+int x3 = Convert.ToInt32(Console.ReadLine());
+int x4 = Convert.ToInt32(Console.ReadLine());
+int y3 = Convert.ToInt32(Console.ReadLine());
+int y4 = Convert.ToInt32(Console.ReadLine());
+double Length1 = ((Math.Pow(x4, 2)) - (Math.Pow(x3, 2))) + ((Math.Pow(y4, 2)) - (Math.Pow(y3, 2)));
+double sqr1 = Math.Sqrt(Length1);
+Console.WriteLine(sqr1);
+
+
+
+Console.WriteLine("Length of First line =" +sqr);
+Console.WriteLine("Length of Second line ="+sqr1);
