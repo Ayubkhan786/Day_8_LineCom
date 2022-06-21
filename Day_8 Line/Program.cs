@@ -25,3 +25,16 @@ Console.WriteLine(sqr1);
 
 Console.WriteLine("Length of First line =" +sqr);
 Console.WriteLine("Length of Second line ="+sqr1);
+
+if (sqr == sqr1)
+{
+    Console.WriteLine("it is equal");
+}
+else if (sqr > sqr1)
+{
+    Console.WriteLine("sqr is greater");
+}
+else
+{
+    Console.WriteLine("sqr is lesser");
+}
